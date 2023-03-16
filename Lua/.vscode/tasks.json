@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Run lua",
+			"command": "lua",
+			"args": [
+				"${file}",	//g++ -g main.cpp	//g++ -g main.cpp -o main.exe
+			],
+			"group": "build"
+		}
+	]
+}
