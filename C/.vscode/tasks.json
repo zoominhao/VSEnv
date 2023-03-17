@@ -4,7 +4,7 @@
 		{
 			"type": "shell",
 			"label": "task g++",
-			"command": "D:\\Software\\mingw64\\bin\\g++.exe",
+			"command": "${workspaceFolder}\\.vscode\\mingw64\\bin\\g++.exe",
 			"args": [
 				"-g",	//g++ -g
 				"${file}",	//g++ -g main.cpp
@@ -12,7 +12,7 @@
 				"${fileDirname}\\${fileBasenameNoExtension}.exe"	//g++ -g main.cpp -o main.exe
 			],
 			"options": {
-				"cwd": "D:\\Software\\mingw64\\bin"
+				"cwd": "${workspaceFolder}\\.vscode\\mingw64\\bin"
 			},
 			"problemMatcher": [
 				"$gcc"

@@ -4,9 +4,9 @@
 		{
 			"type": "shell",
 			"label": "Run lua",
-			"command": "lua",
+			"command": "${workspaceFolder}\\.vscode\\lua-5.4.2_Win64_bin\\lua.exe",
 			"args": [
-				"${file}",	//g++ -g main.cpp	//g++ -g main.cpp -o main.exe
+				"${file}",
 			],
 			"group": "build"
 		}

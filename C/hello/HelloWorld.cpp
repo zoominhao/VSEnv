@@ -2,7 +2,7 @@
 #include <windows.h>
 int main()
 {
-    printf("Hello World\n");
+    printf("Hello New World!\n");
     system("pause");
     return 0;
 }
